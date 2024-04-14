@@ -5,6 +5,8 @@ import { right } from "inquirer/lib/utils/readline.js";
 
 let randomNumber= Math.floor(Math.random() * 6 + 1);
 
+console.log("Welcome to guessing game");
+
 const answer = await inquirer.prompt([
     {
         name:"guessNumber",
